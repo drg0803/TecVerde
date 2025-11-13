@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f8f5;
+  color: #333;
+}
+
+header {
+  background-color: #218c74;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  gap: 20px;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 12px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #2e7d32;
+}
+
+ul {
+  margin-top: 10px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Rodapé */
+footer {
+  background-color: #2e7d32;
+  color: #fff;
+  text-align: center;
+  padding: 15px 20px;
+  margin-top: 40px;
+}
+
+.galeria {
+  display: flex;
+  gap: 26px;
+  justify-content: space-between;
+  margin: 25px 0;
+  flex-wrap: wrap;
+}
+.item-galeria {
+  background: #e6f4ea;
+  border-radius: 8px;
+  padding: 12px;
+  width: 300px;
+  box-shadow: 0 1px 8px rgba(33, 140, 116, 0.13);
+  margin-bottom: 20px;
+  text-align: center;
+}
+.item-galeria img,
+.item-galeria video {
+  width: 260px;
+  border-radius: 8px;
+  margin-bottom: 7px;
+}
+.sugestoes-projetos {
+  background: #effaf1;
+  padding: 18px;
+  border-radius: 8px;
+  margin-top: 20px;
+  max-width: 500px;
+}
+.sugestoes-projetos label {
+  font-weight: bold;
+  color: #218c74;
+}
+#listaProjetos {
+  margin-top: 10px;
+}
+#projetos li {
+  padding: 6px 0;
+  border-bottom: 1px solid #218c7440;
+}
+@media (max-width: 1000px) {
+  .galeria {
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+  }
+}

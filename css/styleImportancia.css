@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f8f5;
+  color: #333;
+}
+
+header {
+  background-color: #218c74;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+header h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 12px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #2e7d32;
+}
+
+ul {
+  margin-top: 10px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #2e7d32;
+  color: #fff;
+  text-align: center;
+  padding: 15px 20px;
+  margin-top: 40px;
+}
+
+#importancia {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.para-estudantes,
+.para-comunidade {
+  background: #e6f4ea;
+  padding: 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(34, 139, 34, 0.08);
+  flex: 1 1 300px;
+  margin-bottom: 20px;
+}
+.depoimento {
+  background: #effaf1;
+  margin: 10px 0;
+  padding: 12px 18px;
+  border-radius: 7px;
+  border-left: 4px solid #218c74;
+}
+.depoimento span {
+  color: #218c74;
+  font-size: 0.98em;
+  font-style: italic;
+}
+@media (max-width: 700px) {
+  .importancia {
+    flex-direction: column;
+    gap: 16px;
+  }
+}

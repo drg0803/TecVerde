@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tecnologia Verde - Informativo</title>
+    <link rel="shortcut icon" href="img/icon.png" />
+    <link rel="stylesheet" href="/css/styleProjetos.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tecnologia Verde</h1>
+      <nav>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="oque.html">O que é Tecnologia Verde?</a></li>
+            <li><a href="importancia.html">Importância</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="aprenda.html">Aprenda</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="secao3">
+      <h2>Projetos e Inovações Verdes</h2>
+
+      <div class="projetos-descricao">
+        <p>
+          Acompanhe algumas iniciativas reais desenvolvidas em escolas e
+          comunidades locais!
+        </p>
+      </div>
+
+      <div class="galeria">
+        <!-- Horta tecnológica -->
+        <div class="item-galeria">
+          <img
+            src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=400&q=80"
+            alt="Horta tecnológica"
+          />
+          <video controls width="300">
+            <source
+              src="https://www.w3schools.com/html/mov_bbb.mp4"
+              type="video/mp4"
+            />
+            Seu navegador não suporta vídeo HTML5.
+          </video>
+          <h4>Hortas tecnológicas</h4>
+          <p>
+            Irrigação automatizada aumenta a eficiência e preserva recursos
+            hídricos.
+          </p>
+        </div>
+
+        <!-- Coleta seletiva inteligente -->
+        <div class="item-galeria">
+          <img
+            src="https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=400&q=80"
+            alt="Coleta seletiva inteligente"
+          />
+          <video controls width="300">
+            <source
+              src="https://www.w3schools.com/html/movie.mp4"
+              type="video/mp4"
+            />
+            Seu navegador não suporta vídeo HTML5.
+          </video>
+          <h4>Coleta seletiva inteligente</h4>
+          <p>
+            Uso de sensores para identificar tipo de resíduos e otimizar
+            reciclagem.
+          </p>
+        </div>
+
+        <!-- Reaproveitamento de equipamentos eletrônicos -->
+        <div class="item-galeria">
+          <img
+            src="https://images.unsplash.com/photo-1519125323398-675f0ddb6308?auto=format&fit=crop&w=400&q=80"
+            alt="Reaproveitamento de eletrônicos"
+          />
+          <video controls width="300">
+            <source
+              src="https://www.w3schools.com/html/mov_bbb.mp4"
+              type="video/mp4"
+            />
+            Seu navegador não suporta vídeo HTML5.
+          </video>
+          <h4>Reaproveitamento de eletrônicos</h4>
+          <p>
+            Reciclagem criativa de componentes eletrônicos para projetos
+            educacionais.
+          </p>
+        </div>
+      </div>
+
+      <!-- Espaço para sugestão/cadastro de projetos pelo visitante -->
+      <div class="sugestoes-projetos">
+        <h3>Cadastre seu projeto sustentável!</h3>
+        <form id="formProjeto">
+          <label for="nomeProjeto">Nome do Projeto:</label>
+          <input type="text" id="nomeProjeto" name="nomeProjeto" required />
+          <br />
+          <label for="descProjeto">Descrição:</label>
+          <textarea
+            id="descProjeto"
+            name="descProjeto"
+            rows="2"
+            required
+          ></textarea>
+          <br />
+          <button type="submit">Cadastrar</button>
+        </form>
+        <div id="listaProjetos">
+          <h4>Projetos cadastrados:</h4>
+          <ul id="projetos"></ul>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 Tecnologia Verde Informativo</p>
+    </footer>
+    <script src="/js/script_projetos.js"></script>
+  </body>
+</html>

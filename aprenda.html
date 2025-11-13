@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tecnologia Verde - Informativo</title>
+    <link rel="shortcut icon" href="img/icon.png" />
+    <link rel="stylesheet" href="/css/styleAprenda.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tecnologia Verde</h1>
+      <nav>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="oque.html">O que é Tecnologia Verde?</a></li>
+            <li><a href="importancia.html">Importância</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="aprenda.html">Aprenda</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section id="secao4">
+      <h2>Aprenda e Participe</h2>
+
+      <!-- Materiais digitais -->
+      <div class="materiais">
+        <h3>Materiais para Download:</h3>
+        <ul>
+          <li>
+            <a
+              href="https://evernex.com/pt-br/guia-do-setor/ti-verde/?creative=&keyword=&matchtype=&network=x&device=c&utm_medium=cpc&utm_source=GOOGLE_ADS&utm_term=&utm_campaign=%5Bc:LATAM+PT%5D+%5Bt:PMax%5D+%5BTPM%5D&hsa_acc=7831312779&hsa_cam=22327894976&hsa_grp=&hsa_ad=&hsa_src=x&hsa_tgt=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=22327936709&gbraid=0AAAAADnsiWzJdhjy1ysJG4yHN6ZAQPK0m&gclid=CjwKCAiAt8bIBhBpEiwAzH1w6WQrRFtAL9XMsTwFy2ZwBiE4FuLaAtUPZwi2Aljzk9PRAy8BHPVqRhoC_UAQAvD_BwE"
+              download
+              >TI Verde</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://ambiental.sc/blog/tecnologia-verde-conheca-as-inovacoes-que-estao-transformando-o-setor-ambiental"
+              download
+              >Inovações no mundo da Tecnologia Verde</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.mentordegente.com.br/blog/tecnologia/sustentabilidade-e-ti-verde-guia-pratico/"
+              download
+              >Guia prático: Ações sustentáveis</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="jogos">
+        <h3>Jogue e Aprenda!</h3>
+        <button onclick="abrirQuiz()">Quiz: Práticas Sustentáveis</button>
+        <div id="quizModal" class="modal">
+          <div class="modal-content">
+            <span class="close" onclick="fecharQuiz()">&times;</span>
+            <h4>Quiz: Práticas Sustentáveis</h4>
+            <form id="quizForm">
+              <p>1. Qual destas práticas NÃO é sustentável?</p>
+              <input type="radio" name="q1" value="a" required /> Reciclar<br />
+              <input type="radio" name="q1" value="b" /> Jogar lixo no chão<br />
+              <input type="radio" name="q1" value="c" /> Plantar árvores<br /><br />
+              <p>2. Qual fonte de energia é considerada limpa?</p>
+              <input type="radio" name="q2" value="a" required /> Carvão<br />
+              <input type="radio" name="q2" value="b" /> Solar<br />
+              <input type="radio" name="q2" value="c" /> Petróleo<br /><br />
+              <button type="submit">Ver Resultado</button>
+            </form>
+            <div id="resultadoQuiz"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="eventos">
+        <h3>Calendário de Eventos</h3>
+        <table>
+          <tr>
+            <th>Data</th>
+            <th>Evento</th>
+            <th>Local</th>
+          </tr>
+          <tr>
+            <td>12/11/2025</td>
+            <td>Oficina de Tecnologia Verde</td>
+            <td>Escola João Verde</td>
+          </tr>
+          <tr>
+            <td>21/11/2025</td>
+            <td>Feira de Sustentabilidade</td>
+            <td>Praça Central</td>
+          </tr>
+          <tr>
+            <td>05/12/2025</td>
+            <td>Palestra: Inovação Ambiental</td>
+            <td>Biblioteca Municipal</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 Tecnologia Verde Informativo</p>
+    </footer>
+    <!--<script src="js/script_quiz.js"></script>-->
+  </body>
+</html>

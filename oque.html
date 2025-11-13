@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tecnologia Verde - Informativo</title>
+    <link rel="shortcut icon" href="img/icon.png" />
+    <link rel="stylesheet" href="/css/styleOque.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tecnologia Verde</h1>
+      <nav>
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="oque.html">O que é Tecnologia Verde?</a></li>
+            <li><a href="importancia.html">Importância</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="aprenda.html">Aprenda</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="secao1">
+        <p>
+          <strong>Tecnologia verde</strong> refere-se a soluções tecnológicas
+          que contribuem para a sustentabilidade ambiental, preservação dos
+          recursos naturais e redução de impactos negativos ao meio ambiente.
+        </p>
+        <p>
+          Ela envolve o uso da inovação científica para criar produtos,
+          processos e práticas que minimizem o consumo de energia, a emissão de
+          poluentes e o desperdício. Assim, tecnologia e inovação trabalham
+          juntas para construir um futuro mais sustentável.
+        </p>
+      </section>
+
+      <section id="exemplos">
+        <h2>Exemplos Práticos de Tecnologia Verde</h2>
+        <div class="grid-exemplos">
+          <div class="exemplo" onclick="mostrarDetalhes('energia')">
+            <h3>Energia limpa</h3>
+            <img src="img/energia-limpa.jpg" alt="Painéis solares" />
+            <p>Solar | Eólica</p>
+          </div>
+          <div class="exemplo" onclick="mostrarDetalhes('agricultura')">
+            <h3>Agricultura sustentável</h3>
+            <img
+              src="img/agricultura-sustentavel.jpg"
+              alt="Agricultura sustentável"
+            />
+            <p>Uso eficiente de recursos</p>
+          </div>
+          <div class="exemplo" onclick="mostrarDetalhes('ecoarquitetura')">
+            <h3>Ecoarquitetura</h3>
+            <img src="img/casa-sustentavel-.jpg" alt="Casa sustentável" />
+            <p>Construções ecológicas</p>
+          </div>
+          <div class="exemplo" onclick="mostrarDetalhes('mobilidade')">
+            <h3>Mobilidade elétrica</h3>
+            <img src="img/carroEletrico.jpg" alt="Carro elétrico" />
+            <p>Veículos movidos a eletricidade</p>
+          </div>
+        </div>
+        <div id="detalhesExemplo"></div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2025 Tecnologia Verde Informativo</p>
+    </footer>
+    <script src="/js/script.js"></script>
+  </body>
+</html>

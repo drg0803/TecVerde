@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0f8f5;
+  color: #333;
+}
+
+header {
+  background-color: #218c74;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  gap: 200px;
+}
+
+header h1 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  gap: 20px;
+  justify-content: center;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 12px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+h2 {
+  margin-bottom: 15px;
+  color: #2e7d32;
+}
+
+ul {
+  margin-top: 10px;
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+img {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #2e7d32;
+  color: #fff;
+  text-align: center;
+  padding: 15px 20px;
+  margin-top: 40px;
+}
+
+#secao6 {
+  background: #e6f4ea;
+  padding: 28px 16px;
+  border-radius: 8px;
+  max-width: 900px;
+  margin: 32px auto;
+}
+.contato-parcerias-wrap {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+}
+.contato,
+.newsletter {
+  background: #effaf1;
+  padding: 16px 18px;
+  border-radius: 8px;
+  flex: 1 1 300px;
+  min-width: 280px;
+  box-shadow: 0 2px 8px 0 rgba(34, 139, 34, 0.1);
+  margin-bottom: 14px;
+}
+.contato label,
+.newsletter label {
+  color: #218c74;
+  font-weight: bold;
+  margin-right: 8px;
+}
+.contato input,
+.newsletter input,
+.contato textarea {
+  width: 98%;
+  padding: 6px;
+  margin: 5px 0 10px 0;
+  border-radius: 5px;
+  border: 1px solid #218c7445;
+  font-size: 1em;
+}
+.contato button,
+.newsletter button {
+  background: #218c74;
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 1em;
+  cursor: pointer;
+}
+.contato button:hover,
+.newsletter button:hover {
+  background: #186456;
+}
+#contatoStatus,
+#newsletterStatus {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #218c74;
+}
+.parceiros {
+  background: #fff;
+  padding: 16px 18px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px 0 rgba(34, 139, 34, 0.08);
+  max-width: 520px;
+  margin: 0 auto;
+}
+.parceiros ul {
+  margin-left: 18px;
+  line-height: 1.7em;
+}
+@media (max-width: 700px) {
+  .contato-parcerias-wrap {
+    flex-direction: column;
+    gap: 16px;
+  }
+}

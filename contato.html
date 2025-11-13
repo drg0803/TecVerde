@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tecnologia Verde - Informativo</title>
+    <link rel="shortcut icon" href="img/icon.png" />
+    <link rel="stylesheet" href="/css/styleContato.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Tecnologia Verde</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="oque.html">O que é Tecnologia Verde?</a></li>
+          <li><a href="importancia.html">Importância</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="aprenda.html">Aprenda</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="secao6">
+      <h2>Contato e Parcerias</h2>
+
+      <div class="contato-parcerias-wrap">
+        <!-- Formulário de contato -->
+        <div class="contato">
+          <h3>Fale conosco</h3>
+          <form id="formContato">
+            <label for="nomeContato">Nome:</label>
+            <input type="text" id="nomeContato" name="nomeContato" required />
+            <br />
+            <label for="emailContato">E-mail:</label>
+            <input
+              type="email"
+              id="emailContato"
+              name="emailContato"
+              required
+            />
+            <br />
+            <label for="msgContato">Mensagem:</label>
+            <textarea
+              id="msgContato"
+              name="msgContato"
+              rows="3"
+              required
+            ></textarea>
+            <br />
+            <button type="submit">Enviar</button>
+            <div id="contatoStatus"></div>
+          </form>
+        </div>
+
+        <!-- Inscrição newsletter -->
+        <div class="newsletter">
+          <h3>Receba nossas novidades</h3>
+          <form id="formNewsletter">
+            <label for="emailNews">Seu e-mail:</label>
+            <input type="email" id="emailNews" name="emailNews" required />
+            <button type="submit">Inscrever</button>
+            <div id="newsletterStatus"></div>
+          </form>
+        </div>
+      </div>
+
+      <!-- Parceiros -->
+      <div class="parceiros">
+        <h3>Parceiros Institucionais</h3>
+        <ul>
+          <li>
+            <b>EcoEscola Brasil</b> – Projetos inovadores em sustentabilidade
+            escolar
+          </li>
+          <li>
+            <b>Instituto Verde Futuro</b> – Oficinas e feiras de tecnologia
+            verde
+          </li>
+          <li><b>Rede GreenTech</b> – Parcerias com startups ambientais</li>
+          <li>
+            <b>Prefeitura Municipal</b> – Apoio a desafios e eventos
+            comunitários
+          </li>
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <p>&copy; 2025 Tecnologia Verde Informativo</p>
+    </footer>
+    <script src="/js/script_contato.js"></script>
+  </body>
+</html>
